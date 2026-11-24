@@ -1,0 +1,13 @@
+{
+  "loginButtonLocator": "button[data-test='login-button']",
+  "newDashboardLocator": "//*[@id=\"top-bar-right-section-primary-portal\"]/div/button",
+  "dashboardNameLocator": "input[data-test='dashboard-name-input']",
+  "issueDashboardButtonLocator": "button[data-test='create-button']",
+  "usernameFieldLocator": "username",
+  "passwordFieldLocator": "password",
+  "authButtonLocator": "auth-button",
+  "authErrorLocator": "/html/body/div[2]/div[1]/div/div[1]/div[1]/div[2]/div[1]",
+  "emailFieldLocator": "//*[@id=\"email\"]",
+  "issuesButtonLocator" : "//*[@id=\"menu-react-root\"]/div[2]/div[1]/div/a[1]",
+  "projectsListButtonLocator" : "//*[@id=\"react-root\"]/div/div[2]/div/div/aside/div/div[1]/div/section[2]/div[1]/div[1]/button"
+}
