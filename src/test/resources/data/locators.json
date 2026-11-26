@@ -1,13 +1,15 @@
 {
-  "loginButtonLocator": "button[data-test='login-button']",
+  "loginButtonLocator": "/html/body/div[2]/div[1]/div/div[1]/div[2]/form/div[2]/div[2]/button",
   "newDashboardLocator": "//*[@id=\"top-bar-right-section-primary-portal\"]/div/button",
-  "dashboardNameLocator": "input[data-test='dashboard-name-input']",
-  "issueDashboardButtonLocator": "button[data-test='create-button']",
-  "usernameFieldLocator": "username",
-  "passwordFieldLocator": "password",
-  "authButtonLocator": "auth-button",
+  "dashboardNameLocator": "/html/body/div[3]/div[3]/div/form/div[2]/div/div/div[1]/div/input",
+  "issueDashboardButtonLocator": "/html/body/div[3]/div[3]/div/form/div[3]/div/span[1]/button",
+  "usernameFieldLocator": "//*[@id=\"username\"]",
+  "passwordFieldLocator": "//*[@id=\"password\"]",
+  "authButtonLocator": "/html/body/div[2]/div[1]/div/form/div[2]/button",
   "authErrorLocator": "/html/body/div[2]/div[1]/div/div[1]/div[1]/div[2]/div[1]",
   "emailFieldLocator": "//*[@id=\"email\"]",
   "issuesButtonLocator" : "//*[@id=\"menu-react-root\"]/div[2]/div[1]/div/a[1]",
-  "projectsListButtonLocator" : "//*[@id=\"react-root\"]/div/div[2]/div/div/aside/div/div[1]/div/section[2]/div[1]/div[1]/button"
+  "projectsListButtonLocator" : "//*[@id=\"react-root\"]/div/div[2]/div/div/aside/div/div[1]/div/section[2]/div/div[1]/button",
+  "resetLinkLocator" : "/html/body/div[2]/div[1]/div/div[1]/div[2]/form/div[2]/div[1]/flexible-link/a",
+  "projectLinkLocator" : "//*[@id=\"react-root\"]/div/div[2]/div/div/aside/div/div[1]/div/section[2]/div[2]/a"
 }
