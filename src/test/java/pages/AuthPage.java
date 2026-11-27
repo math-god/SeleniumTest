@@ -6,9 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import static tests.BaseTest.LOCATORS;
 
-public class AuthPage {
-
-    private final WebDriver driver;
+public class AuthPage extends BasePage {
 
     private final By usernameFieldBy = By.xpath(LOCATORS.get("usernameFieldLocator"));
     private final By passwordFieldBy = By.xpath(LOCATORS.get("passwordFieldLocator"));
@@ -19,7 +17,7 @@ public class AuthPage {
     private final By emailFieldBy = By.xpath(LOCATORS.get("emailFieldLocator"));
 
     public AuthPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     public void enterUsername(String username) {

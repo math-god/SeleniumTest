@@ -6,16 +6,14 @@ import org.openqa.selenium.WebElement;
 
 import static tests.BaseTest.LOCATORS;
 
-public class IssuesPage {
-
-    private final WebDriver driver;
+public class IssuesPage extends BasePage {
 
     private final By issuesButtonBy = By.xpath(LOCATORS.get("issuesButtonLocator"));
     private final By projectsListButtonBy = By.xpath(LOCATORS.get("projectsListButtonLocator"));
     private final By projectLinkBy = By.xpath(LOCATORS.get("projectLinkLocator"));
 
     public IssuesPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     public void clickOnIssuesButton() {
